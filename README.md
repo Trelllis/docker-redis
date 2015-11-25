@@ -15,3 +15,6 @@ docker run -d --name replica-1 -p 6380:6379 --link primary:primary trelllis/redi
 Primary instances are the only instances that save data using RDB bakground saves,
 to **/data** so you might want to mount a directory for backup or re-generating data on failures.
 
+## License
+MIT
+
